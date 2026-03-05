@@ -1,8 +1,8 @@
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
-import Pricing from "./components/Pricing";
-import FAQ from "./components/FAQ";
+import Hero from "./Hero";
+import Features from "./Features";
+import Testimonials from "./Testimonials";
+import Pricing from "./Pricing";
+import FAQ from "./FAQ";
 import { Instagram, Twitter, Facebook, Mail } from "lucide-react";
 
 export default function App() {
