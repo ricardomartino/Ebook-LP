@@ -35,7 +35,7 @@ export default function Pricing() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="w-full lg:w-[400px] bg-white p-10 rounded-[2rem] shadow-xl text-center"
+            className="w-full lg:w-100 bg-white p-10 rounded-4xl shadow-xl text-center"
           >
             <p className="text-slate-500 font-bold uppercase tracking-widest text-sm mb-4">
               Oferta de Lançamento
@@ -64,7 +64,7 @@ export default function Pricing() {
       </div>
       
       {/* Background decoration */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-indigo-50 -z-0 rotate-3"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-indigo-50 z-0 rotate-3"></div>
     </section>
   );
 }
